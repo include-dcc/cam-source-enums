@@ -60,9 +60,15 @@ imports:
 
 classes:
     RequiredClass:
+        description: "Required description for classes."
         attributes:
             id:
+                description: "Unique identifier"
             full_name:
+                description: "Full name"
             aliases:
+                description: "Aliases"
             phone:
+                description: "Phone number"
             age:
+                description: "Age"
