@@ -80,10 +80,7 @@ site: gen-project gen-doc
 
 # Deploy documentation site to Github Pages
 [group('deployment')]
-deploy: site
-  mkd-gh-deploy
 
-# Run all tests
 [group('model development')]
 test: _test-schema _test-python _test-examples
 
