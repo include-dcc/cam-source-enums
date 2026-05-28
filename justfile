@@ -78,9 +78,6 @@ clean: _clean_project
 [group('model development')]
 site: gen-project gen-doc
 
-# Deploy documentation site to Github Pages
-[group('deployment')]
-
 [group('model development')]
 test: _test-schema _test-python _test-examples
 
