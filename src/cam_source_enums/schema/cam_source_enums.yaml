@@ -60,7 +60,7 @@ imports:
 
 classes:
   RequiredClass:
-    description: "Required description for classes."
+    description: "This is a placeholder class to satisfy the LinkML requirement of at least one class and is not otherwise used."
     attributes:
       id:
         description: "Unique identifier"
