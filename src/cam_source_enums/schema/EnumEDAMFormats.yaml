@@ -8,7 +8,8 @@ enums:
       source_ontology: bioregistry:edam
       source_nodes:
         - edam:format_1915
-      include_self: false
       is_direct: false
+      include_self: true
+      traverse_up: false
       relationship_types:
         - rdfs:subClassOf

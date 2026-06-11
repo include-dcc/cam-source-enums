@@ -10,5 +10,7 @@ enums:
       source_nodes:
         - DUO:0000001
       is_direct: false
+      include_self: false
+      traverse_up: false
       relationship_types:
         - rdfs:subClassOf

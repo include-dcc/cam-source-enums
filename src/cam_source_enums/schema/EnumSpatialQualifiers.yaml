@@ -15,5 +15,7 @@ enums:
         - snomedct:24028007
         - snomedct:7771000
       is_direct: false
+      include_self: false
+      traverse_up: false
       relationship_types:
         - rdfs:subClassOf
