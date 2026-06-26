@@ -369,6 +369,8 @@ enums:
       relationship_types:
       - rdfs:subClassOf
       is_direct: false
+      include_self: false
+      traverse_up: false
   EnumDataUseModifier:
     name: EnumDataUseModifier
     definition_uri: https://includedcc.org/common-access-model/EnumDataUseModifier/EnumDataUseModifier
@@ -382,6 +384,8 @@ enums:
       relationship_types:
       - rdfs:subClassOf
       is_direct: false
+      include_self: false
+      traverse_up: false
   EnumProgram:
     name: EnumProgram
     definition_uri: https://includedcc.org/common-access-model/EnumProgram/EnumProgram
@@ -859,6 +863,8 @@ enums:
       relationship_types:
       - rdfs:subClassOf
       is_direct: false
+      include_self: true
+      traverse_up: false
   EnumLaterality:
     name: EnumLaterality
     definition_uri: https://includedcc.org/common-access-model/EnumLaterality/EnumLaterality
@@ -876,7 +882,8 @@ enums:
       relationship_types:
       - rdfs:subClassOf
       is_direct: false
-      include_self: false
+      include_self: true
+      traverse_up: false
   EnumEDAMDataTypes:
     name: EnumEDAMDataTypes
     definition_uri: https://includedcc.org/common-access-model/EnumEDAMDataTypes/EnumEDAMDataTypes
@@ -890,6 +897,7 @@ enums:
       - rdfs:subClassOf
       is_direct: false
       include_self: false
+      traverse_up: false
   EnumFileHashType:
     name: EnumFileHashType
     definition_uri: https://includedcc.org/common-access-model/EnumFileHashType/EnumFileHashType
@@ -960,7 +968,8 @@ classes:
   RequiredClass:
     name: RequiredClass
     definition_uri: https://includedcc.org/common-access-model/RequiredClass
-    description: Required description for classes.
+    description: This is a placeholder class to satisfy the LinkML requirement of
+      at least one class and is not otherwise used.
     from_schema: https://includedcc.org/cam-source-enums
     exact_mappings:
     - cam:RequiredClass
@@ -989,7 +998,7 @@ classes:
     class_uri: cam:RequiredClass
 metamodel_version: 1.11.0
 source_file: cam_source_enums.yaml
-source_file_date: '2026-05-20T09:58:28'
-source_file_size: 2443
-generation_date: '2026-05-20T09:59:39'
+source_file_date: '2026-06-26T16:03:28'
+source_file_size: 2350
+generation_date: '2026-06-26T16:12:35'
 
