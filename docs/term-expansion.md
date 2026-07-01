@@ -12,4 +12,4 @@ This is the source of the enumeration files to be materialized by the [Term-Weav
 - include_self
     - true/false
 
-* It does not currently support 'traverse_up'
+*It does not currently support 'traverse_up'
