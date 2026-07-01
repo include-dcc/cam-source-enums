@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier
+_commit: v0.5.0
+_src_path: https://github.com/linkml/linkml-project-copier
+add_example: false
+copyright_year: "2026"
+email: yelena.cox@vumc.org
+existing_license_file: ""
+full_name: Yelena Cox
+gh_action_docs_preview: true
+gh_action_pypi: false
+github_org: include-dcc
+license: MIT
+project_description: "Source enumerations for the INCLUDE Common Access Model"
+project_name: cam-source-enums
+project_slug: cam_source_enums
